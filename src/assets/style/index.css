@@ -5,8 +5,9 @@ body {
 
 .todolist {
     background-color: #FFF;
-    padding: 20px 20px 10px 20px;
-    width: 600px;
+    padding: 40px 20px 10px 20px;
+    width: 400px;
+
     margin: 30px auto;
     border: 1px solid #ddd;
     border-radius: 2px;
@@ -36,7 +37,7 @@ body {
 li.ui-state-default {
     background: #fff;
     border: none;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 5px solid #ddd;
 }
 
 li.ui-state-default:last-child {
@@ -49,12 +50,12 @@ li.completed label {
 }
 
 footer {
-    border-top: 1px solid #ddd;
-    background-color: #F4FCE8;
+    border-top: 3px solid #ddd;
+    background-color: #FA8072;
     margin: 0 -20px -10px -20px;
     padding: 12px 20px;
     position: relative;
-    color: #777;
+    color: #000;
 }
 
 .filters {
@@ -74,7 +75,7 @@ footer {
     padding: 4px 8px;
     text-decoration: none;
     border: 1px solid transparent;
-    border-radius: 3px;
+    border-radius: 10px;
 }
 
 .filters li a.selected, .filters li a:hover {
@@ -122,5 +123,22 @@ footer .buttons {
     border-radius: 0;
     background: #f2f2f2;
     border: 1px solid rgba(229, 229, 229, 0.5);
-    color: #888;
+    color: #999;
+}
+
+
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
 }

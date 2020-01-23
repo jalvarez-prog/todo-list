@@ -1,0 +1,22 @@
+class Card extends Component {
+
+  render() {
+
+    return (
+      <div className='home-card-view flex-center'>
+
+        <div>
+
+          <img className='home-card-image' src="https://thumbnail.imageurlpathlsakfjlsdfj)" />
+
+          <h2 className='home-card-title'> Title </h2>
+          <h4> Subtitle stuf that should explain more </h4>
+        </div>
+
+      </div>
+
+    )
+  }
+}
+
+export default Card
