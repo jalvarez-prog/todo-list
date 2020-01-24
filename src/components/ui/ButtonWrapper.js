@@ -1,6 +1,7 @@
 import React from 'react';
 import {MODE_NONE, MODE_CREATE, MODE_SEARCH} from '../../services/mode';
 
+
 export default function ButtonWrapper(props) {
     const {mode, changeMode} = props;
     const isCreateMode = () => mode === MODE_CREATE;

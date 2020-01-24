@@ -18,6 +18,7 @@ export function objectWithOnly(object, attrs) {
     return newObject;
 }
 
+
 /**
  * Wraps react children elements with props.
  */

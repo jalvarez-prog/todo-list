@@ -11,6 +11,7 @@ export default function TodoList(props) {
     const count = list.length;
     const items = search(applyFilter(list, filter), query);
 
+
     return (
         <div className="container">
             <div className="row">

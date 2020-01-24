@@ -15,6 +15,7 @@ class StateProvider extends Component {
         }
     }
 
+
     render() {
         let children = wrapChildrenWith(this.props.children, {
             data: this.state,

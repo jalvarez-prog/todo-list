@@ -55,6 +55,7 @@ function getNextId() {
     return getAll().length + todoCounter++;
 }
 
+
 /**
  * Adds a new item on the list and returns the new updated list (immutable).
  *

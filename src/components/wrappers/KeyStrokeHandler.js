@@ -21,6 +21,7 @@ class KeyStrokeHandler extends Component {
         }
     }
 
+
     render() {
         return <div>{wrapChildrenWith(this.props.children, this.props)}</div>;
     }

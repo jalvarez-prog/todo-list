@@ -1,6 +1,7 @@
 import KeyCode from 'keycode-js';
 import { compose, withState, withHandlers } from 'recompose';
 
+
 export default compose(
     withState('value', 'setValue', props => {
         console.log('got props', props);

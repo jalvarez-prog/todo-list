@@ -2,6 +2,7 @@ import React from 'react';
 import Filter from './Filter';
 import ButtonWrapper from './ButtonWrapper';
 
+
 export default function Footer(props) {
     const {count, filter, changeFilter} = props;
     return (

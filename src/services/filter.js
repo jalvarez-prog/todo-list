@@ -23,7 +23,6 @@ export function search(list, query) {
     return list.filter(({text}) => stringInclues(text.toLowerCase(), q));
 }
 
-
 export function getOptions() {
     return {
         [FILTER_ALL]: 'All',
